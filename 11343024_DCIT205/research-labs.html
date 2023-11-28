@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UG | Department of Computer Science - Research Labs</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+
+        section {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        .labs-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .lab-card {
+            background-color: #fff;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .lab-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .lab-details {
+            padding: 20px;
+        }
+
+        .lab-name {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .lab-description {
+            line-height: 1.6;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>UG | Department of Computer Science</h1>
+    </header>
+
+    <section>
+        <h2>Research Labs</h2>
+
+        <div class="labs-grid">
+            <div class="lab-card">
+                <img src="images/lab (1).jpg" alt="Lab 1" class="lab-image">
+                <div class="lab-details">
+                    <div class="lab-name">Artificial Intelligence Lab</div>
+                    <div class="lab-description">The AI LAB is designed to enable students to rotate between the AI Stations, exposing them to multiple disciplines and various scenarios where artificial intelligence takes control of our lives.</div>
+                </div>
+            </div>
+
+            <div class="lab-card">
+                <img src="images/lab (2).jpg" alt="Lab 2" class="lab-image">
+                <div class="lab-details">
+                    <div class="lab-name">Cybersecurity Lab</div>
+                    <div class="lab-description">A CS department is often the first line of defense against cybercrime and cybersecurity labs help train them to identify and prevent these incidents, especially when they have direct access to computers and networking devices.</div>
+                </div>
+            </div>
+
+            <!-- Add more labs as needed -->
+
+        </div>
+    </section>
+
+</body>
+</html>
